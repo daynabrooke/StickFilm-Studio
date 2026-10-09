@@ -2,7 +2,7 @@
 
 <h1 align="center">StickFilm Studio</h1>
 
-<p align="center">Turn a script into a finished, narrated video, on your own Mac.</p>
+<p align="center">Turn a script into a finished, narrated video, on your own Mac or Windows PC.</p>
 
 <p align="center"><a href="../../releases/latest"><b>⬇ Download the latest version</b></a></p>
 
@@ -12,12 +12,19 @@ Paste a script, or write one with the built-in Gemini Writer. StickFilm Studio r
 
 ## Download and install
 
+**Mac**
 1. Download **StickFilm-Studio-x.y.z.dmg** from [Releases](../../releases/latest).
 2. Open it and drag **StickFilm Studio** onto **Applications**.
 3. Open StickFilm Studio from Applications. The first time, macOS may say it cannot check the app. Go to **System Settings › Privacy & Security** and click **Open Anyway**. You only need to do this once.
 
+**Windows**
+1. Download **StickFilm-Studio-Setup-x.y.z.exe** from [Releases](../../releases/latest).
+2. Run it and click through the installer. You do not need to be an administrator.
+3. If Windows shows "Windows protected your PC", click **More info › Run anyway**. You only need to do this once.
+
 **Requirements**
-- macOS 12 Monterey or newer, on an Apple Silicon or Intel Mac.
+- Mac: macOS 12 Monterey or newer, on an Apple Silicon or Intel Mac.
+- Windows: Windows 10 or 11, 64-bit.
 - [Google Chrome](https://www.google.com/chrome/), which is used to draw the pictures with Gemini.
 
 ## Getting started
@@ -28,7 +35,7 @@ Paste a script, or write one with the built-in Gemini Writer. StickFilm Studio r
 | AI33 / Minimax key | The voiceover | [ai33.pro](https://ai33.pro) |
 | A Google account | Drawing the pictures | Sign in on the app's **Accounts** page |
 
-Add your keys under **Settings › API keys**. They are stored only on your Mac.
+Add your keys under **Settings › API keys**. They are stored only on your computer.
 
 ## Updates
 
@@ -36,12 +43,14 @@ The app updates itself. When a new version is out, it tells you what is new and 
 
 ## Where your work is kept
 
-- Finished videos: `~/Movies/StickFilm Studio`
-- Projects, keys, Google sign-ins and styles: `~/Library/Application Support/StickFilm Studio`
+| | Mac | Windows |
+|---|---|---|
+| Finished videos | `~/Movies/StickFilm Studio` | `Videos\StickFilm Studio` |
+| Projects, keys, Google sign-ins and styles | `~/Library/Application Support/StickFilm Studio` | `%LOCALAPPDATA%\StickFilm Studio` |
 
 ## Problems or ideas
 
-Open an [issue](../../issues). If something went wrong, please attach the files from `~/Library/Application Support/StickFilm Studio/logs`.
+Open an [issue](../../issues). If something went wrong, please attach the files from the `logs` folder inside the projects folder above.
 
 ---
 
